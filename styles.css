@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --theme-color: rgb(146, 180, 146);
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  padding: 40px 20px 15px;
+
+  text-align: center;
+
+  background: var(--theme-color);
+  border-bottom: 2px solid black;
+}
+
+.profile {
+  margin: 40px 0;
+
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  align-items: center;
+}
+
+.photo {
+  justify-self: center;
+
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.photo img {
+  width: 100%;
+  transform: scale(1.4) translateX(-10px);
+}
+
+p {
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 200;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+h2 {
+  margin-top: -8px;
+  padding-top: 28px;
+
+  font-size: 24px;
+  text-transform: uppercase;
+
+  border-top: 6px solid var(--theme-color);
+}
+
+ul {
+  margin: 0;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: 940px;
+}
+
+.info {
+  margin-top: 40px;
+
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  grid-column-gap: 40px;
+
+  border-top: 2px solid black;
+}
+
+.info__text {
+  padding-top: 20px;
+}
+
+.skills {
+  columns: 2;
+}
+
+.gaps {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
