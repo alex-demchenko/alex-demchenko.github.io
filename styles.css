@@ -23,7 +23,7 @@ header {
   border-bottom: 2px solid black;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   header {
     flex-direction: column;
     gap: 10px;
@@ -39,7 +39,7 @@ header p {
   border-right: 2px solid black;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   header p {
     margin-right: 0px;
     padding-right: 0px;
@@ -66,7 +66,7 @@ header p img {
   align-items: center;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .profile {
     grid-template-columns: 1fr;
   }
@@ -134,7 +134,7 @@ li {
   border-top: 2px solid black;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .info {
     grid-template-columns: 1fr;
   }
