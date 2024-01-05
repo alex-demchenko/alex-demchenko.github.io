@@ -13,13 +13,21 @@ body {
 }
 
 header {
-  padding: 40px 20px 15px;
+  padding: 30px 0px;
 
   display: flex;
   justify-content: center;
+  align-items: center;
 
   background: var(--theme-color);
   border-bottom: 2px solid black;
+}
+
+@media (max-width: 600px) {
+  header {
+    flex-direction: column;
+    gap: 10px;
+  }
 }
 
 header p {
@@ -29,6 +37,14 @@ header p {
   margin-right: 15px;
   padding-right: 15px;
   border-right: 2px solid black;
+}
+
+@media (max-width: 600px) {
+  header p {
+    margin-right: 0px;
+    padding-right: 0px;
+    border-right: none;
+  }
 }
 
 header p:last-of-type {
@@ -50,6 +66,12 @@ header p img {
   align-items: center;
 }
 
+@media (max-width: 600px) {
+  .profile {
+    grid-template-columns: 1fr;
+  }
+}
+
 .photo {
   justify-self: center;
 
@@ -66,6 +88,7 @@ header p img {
 
 p {
   margin: 0;
+  margin-bottom: 0.5rem;
 }
 
 h1 {
@@ -88,6 +111,11 @@ h2 {
 
 ul {
   margin: 0;
+  margin-bottom: 0.5rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
 }
 
 .container {
@@ -106,11 +134,18 @@ ul {
   border-top: 2px solid black;
 }
 
+@media (max-width: 600px) {
+  .info {
+    grid-template-columns: 1fr;
+  }
+}
+
 .info__text {
   padding-top: 20px;
 }
 
 .skills {
+  margin-bottom: 1rem;
   columns: 2;
 }
 
@@ -118,4 +153,8 @@ ul {
   display: flex;
   flex-direction: column;
   gap: 30px;
+}
+
+a {
+  text-decoration: none;
 }
