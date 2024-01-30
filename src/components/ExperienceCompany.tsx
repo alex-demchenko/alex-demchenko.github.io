@@ -8,7 +8,7 @@ interface Props {
 
 export default function ExperienceCompany(props: Props) {
   return (
-    <div>
+    <div className="mb-5">
       <div>
         <strong>{props.company}</strong>, {props.where}
       </div>
