@@ -9,7 +9,7 @@ import ExperienceJob from "./components/ExperienceJob";
 export default function App() {
   return (
     <>
-      <header>
+      <header className="px-[30px] py-4 flex flex-col md:flex-row justify-center items-center border-b-2 border-b-black">
         <p>
           <img src={IconMail} width="20" alt="Mail icon" />
           alex.demchenko.84@gmail.com
