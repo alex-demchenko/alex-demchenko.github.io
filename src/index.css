@@ -116,7 +116,7 @@
 
   .photo img {
     width: 100%;
-    transform: scale(1.4) translateX(-10px);
+    transform: scale(1.8) translateY(15px);
   }
 
   .container {
