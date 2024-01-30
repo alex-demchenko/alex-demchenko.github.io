@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --theme-color: rgb(146, 180, 146);
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  padding: 30px 0px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: var(--theme-color);
+  border-bottom: 2px solid black;
+}
+
+@media (max-width: 800px) {
+  header {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+header p {
+  display: flex;
+  align-items: center;
+
+  margin-right: 15px;
+  padding-right: 15px;
+  border-right: 2px solid black;
+}
+
+@media (max-width: 800px) {
+  header p {
+    margin-right: 0px;
+    padding-right: 0px;
+    border-right: none;
+  }
+}
+
+header p:last-of-type {
+  margin-right: 0;
+  padding-right: 0;
+  border-right: none;
+}
+
+header p img {
+  display: block;
+  margin-right: 5px;
+}
+
+.profile {
+  margin: 40px 0;
+
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  align-items: center;
+}
+
+@media (max-width: 800px) {
+  .profile {
+    grid-template-columns: 1fr;
+  }
+}
+
+.photo {
+  justify-self: center;
+
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.photo img {
+  width: 100%;
+  transform: scale(1.4) translateX(-10px);
+}
+
+p {
+  margin: 0;
+  margin-bottom: 0.5rem;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 200;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+h2 {
+  margin-top: -8px;
+  padding-top: 28px;
+
+  font-size: 24px;
+  text-transform: uppercase;
+
+  border-top: 6px solid var(--theme-color);
+}
+
+ul {
+  margin: 0;
+  margin-bottom: 0.5rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 20px 50px 20px;
+  max-width: 940px;
+}
+
+.info {
+  margin-top: 40px;
+
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  grid-column-gap: 40px;
+
+  border-top: 2px solid black;
+}
+
+@media (max-width: 800px) {
+  .info {
+    grid-template-columns: 1fr;
+  }
+}
+
+.info__text {
+  padding-top: 20px;
+}
+
+.exp {
+  position: relative;
+}
+
+.exp::before {
+  content: "";
+  display: block;
+  border: 1px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 10px;
+  height: 10px;
+  background: black;
+}
+
+.exp__company {
+  padding-bottom: 20px;
+}
+
+.exp__job {
+  padding-left: 20px;
+}
+
+.skills {
+  margin-bottom: 1rem;
+  columns: 2;
+}
+
+.gaps {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+a {
+  text-decoration: none;
+}
