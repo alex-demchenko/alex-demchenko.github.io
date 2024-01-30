@@ -29,24 +29,26 @@ export default function App() {
           <div className="photo">
             <img src={Photo} alt="Photo" />
           </div>
-          <h1>OLEKSANDR DEMCHENKO</h1>
+          <div>
+            <h1 className="mb-4">OLEKSANDR DEMCHENKO</h1>
+            <ul>
+              <li>
+                Full Stack software engineer with more than 10 years of
+                experience in software development, 5 years of which in web
+                development.
+              </li>
+              <li>Has work experience as a key developer and team lead.</li>
+              <li>Key areas: React, Node.js, AWS, Terraform.</li>
+              <li>
+                Solid knowledge of object-oriented design and programming.
+              </li>
+              <li>
+                Experience in onboarding colleagues and supporting junior
+                developers.
+              </li>
+            </ul>
+          </div>
         </section>
-
-        <SectionBlock title="SUMMARY">
-          <ul>
-            <li>
-              Full Stack software engineer with more than 10 years of experience
-              in software development, 5 years of which in web development.
-            </li>
-            <li>Has work experience as a key developer and team lead.</li>
-            <li>Key areas: React, Node.js, AWS, Terraform.</li>
-            <li>Solid knowledge of object-oriented design and programming.</li>
-            <li>
-              Experience in onboarding colleagues and supporting junior
-              developers.
-            </li>
-          </ul>
-        </SectionBlock>
 
         <SectionBlock title="SKILLS">
           <ul className="skills">

@@ -97,6 +97,8 @@
     display: grid;
     grid-template-columns: 200px 1fr;
     align-items: center;
+
+    @apply gap-x-10;
   }
 
   @media (max-width: 800px) {
