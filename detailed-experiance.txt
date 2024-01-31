@@ -83,19 +83,16 @@ export default function App() {
             jobs={[
               <ExperienceJob
                 title="SENIOR FULL STACK REACT/NODE.JS DEVELOPER"
-                dateRange="06/2023 to now"
+                dateRange="11/2023 to now"
                 description={
                   <>
                     <p>
-                      One of projects:{" "}
-                      <a href="https://www.sparrowfi.com/" rel="nofollow">
-                        Sparrow Crest
-                      </a>
+                      Project: Graphify - it is a service to store and manage
+                      any type of data.
                     </p>
 
                     <p>Frontend:</p>
                     <ul>
-                      <li>Ported backend from Strapi to NestJS</li>
                       <li>
                         Implemented responsive CRUD operations editor for
                         'object' entities via React, Next.js, shadcn/ui,
@@ -106,51 +103,43 @@ export default function App() {
                         ReactHookForm and zod
                       </li>
                       <li>
-                        Implemented editing documents with overlapping elements
-                        for setting signatures, checkboxes and text in images or
-                        pdfs via React Native
-                      </li>
-                      <li>
                         Implemented client and server state management via
-                        ReduxToolkit, Zustand, ReactQuery, ApolloClient
+                        ApolloClient
                       </li>
-                      <li>
-                        Implemented universal table component with filtering,
-                        sorting, row selecting, sticky column, column hiding,
-                        column reordering via drag and drop or dialog,
-                        pagination, cell text cropping with loading, no results
-                        and no data states via React, TanStack Table, react-dnd,
-                        TailwindCSS
-                      </li>
-                      <li>
-                        Implemented footer text editor via ProseMirror, Redux
-                        Toolkit, RTK Query
-                      </li>
-                      <li>
-                        Implemented full page slidings via Swiper, React,
-                        Next.js
-                      </li>
-                      <li>
-                        Implemented animations on the pages via FramerMotion
-                      </li>
-                      <li>
-                        Implemented integration with Google Analytics, Mixpanel
-                        Analytics
-                      </li>
+                      <li>Implemented integration with Google Analytics</li>
                       <li>Wrote E2E tests via Cypress</li>
-                      <li>Provided code review</li>
                     </ul>
 
                     <p>Backend:</p>
                     <ul>
+                      <li>Ported backend from Strapi to NestJS</li>
                       <li>
                         Implemented CRUD operations for 'object' and related
                         entities via NestJS, GraphQL, Pothos, zod
                       </li>
                       <li>
+                        Implemented interaction with PostgreSQL DB via TypeORM
+                      </li>
+                      <li>Implemented unit tests via Jest</li>
+                      <li>Implemented deploying via Docker and CapRover</li>
+                    </ul>
+                  </>
+                }
+              />,
+              <ExperienceJob
+                title="SENIOR NODE.JS DEVELOPER"
+                dateRange="10/2023 to 11/2023"
+                description={
+                  <>
+                    <p>Project: Billboard</p>
+                    <ul>
+                      <li>
                         Implemented REST API endpoints for CRUD operations with
                         billboards, rents, owners via NestJS, with documentation
                         via Swagger
+                      </li>
+                      <li>
+                        Implemented interaction with PostgreSQL DB via TypeORM
                       </li>
                       <li>
                         Implemented service for uploading images to S3 bucket
@@ -160,11 +149,88 @@ export default function App() {
                         Implemented email notification service for various
                         events
                       </li>
+                    </ul>
+                  </>
+                }
+              />,
+              <ExperienceJob
+                title="SENIOR FULL STACK REACT NATIVE/NODE.JS DEVELOPER"
+                dateRange="09/2023 to 10/2023"
+                description={
+                  <>
+                    <p>Project: Midwife</p>
+                    <ul>
                       <li>
-                        Implemented interaction with PostgreSQL DB via TypeORM
+                        Implemented editing documents with overlapping elements
+                        for setting signatures, checkboxes and text in images or
+                        pdfs via React Native
                       </li>
-                      <li>Implemented unit tests via Jest</li>
-                      <li>Implemented deploying via Docker and CapRover</li>
+                      <li>Implemented uploading image or pdf documents</li>
+                      <li>Implemented sharing documents accross email</li>
+                      <li>
+                        Implemented service for uploading images to S3 bucket
+                        via NestJS and multer
+                      </li>
+                    </ul>
+                  </>
+                }
+              />,
+              <ExperienceJob
+                title="SENIOR REACT DEVELOPER"
+                dateRange="07/2023 to 09/2023"
+                description={
+                  <>
+                    <p>
+                      Project:{" "}
+                      <a href="https://www.sparrowfi.com/" rel="nofollow">
+                        Sparrow Crest
+                      </a>
+                    </p>
+                    <ul>
+                      <li>
+                        Implemented universal table component with filtering,
+                        sorting, row selecting, sticky column, column hiding,
+                        column reordering via drag and drop or dialog,
+                        pagination, cell text cropping with loading, no results
+                        and no data states via React, TanStack Table, react-dnd,
+                        TailwindCSS
+                      </li>
+                      <li>
+                        Implemented universal date range picker via React,
+                        TailwindCSS, react-date-range
+                      </li>
+                      <li>
+                        Implemented footer text editor via ProseMirror, Redux
+                        Toolkit, RTK Query
+                      </li>
+                      <li>
+                        Implemented pages with members, tracking properties with
+                        loading data via React, Redux Toolkit, RTK Query
+                      </li>
+                      <li>Provided code review</li>
+                    </ul>
+                  </>
+                }
+              />,
+              <ExperienceJob
+                title="SENIOR REACT DEVELOPER"
+                dateRange="06/2023 to 07/2023"
+                description={
+                  <>
+                    <p>Project: Spree3D</p>
+                    <ul>
+                      <li>
+                        Implemented responsive layout via React, Next.js,
+                        TailwindCSS
+                      </li>
+                      <li>
+                        Implemented full page slidings via Swiper, React,
+                        Next.js
+                      </li>
+                      <li>
+                        Implemented animations on the pages via FramerMotion
+                      </li>
+                      <li>Implemented integration with Mixpanel Analytics</li>
                     </ul>
                   </>
                 }
@@ -181,6 +247,10 @@ export default function App() {
                 dateRange="08/2022 to 06/2023"
                 description={
                   <>
+                    <p>
+                      Project: SkillLab Educational platform for developing
+                      skills with clear progress tracking.
+                    </p>
                     <ul>
                       <li>
                         Developed skill management features in all layers of the
@@ -193,6 +263,10 @@ export default function App() {
                       </li>
                       <li>
                         Wrote Unit and E2E tests via Vitest and Playwright
+                      </li>
+                      <li>
+                        Configured Node.js server as a service on Linux with
+                        auto renew LetsEncrypt SSL certificate
                       </li>
                       <li>
                         Configured CI CD jobs for build, deployment the
@@ -228,7 +302,7 @@ export default function App() {
 
                       <li>
                         Developed frontend React components which requests data
-                        via ReactQuery
+                        from backend and display it
                       </li>
                       <li>
                         Developed backend API endpoints in ASP.NET Core 3 server
@@ -289,6 +363,7 @@ export default function App() {
                         with validation to main ASP.NET Core API application
                         which request data from DynamoDB
                       </li>
+                      <li>Configured new repositories in GitLab</li>
                       <li>
                         Developed Unit and E2E tests via NUnit,
                         FluentAssertions, AutoFixture, Moq, SpecFlow
@@ -378,6 +453,10 @@ export default function App() {
                 dateRange="07/2018 to 10/2020"
                 description={
                   <>
+                    <p>
+                      Project: B2B service for generating an article based on
+                      provided data.
+                    </p>
                     <ul>
                       {/* <!-- TODO more details --> */}
                       <li>
@@ -493,6 +572,10 @@ export default function App() {
                 dateRange="11/2014 to 12/2015"
                 description={
                   <>
+                    <p>
+                      Project: "Vikings" is a MMO mobile game, developed via
+                      Unity.
+                    </p>
                     <ul>
                       <li>Implemented a landscape display system</li>
                       <li>Implemented a city development system</li>
