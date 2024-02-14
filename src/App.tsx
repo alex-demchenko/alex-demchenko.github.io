@@ -247,13 +247,6 @@ export default function App() {
                   </>
                 }
               />,
-            ]}
-          />
-
-          <ExperienceCompany
-            company="EPAM Systems"
-            where="Remote"
-            jobs={[
               <ExperienceJob
                 title=".NET CORE DEVELOPER"
                 dateRange="06/2021 to 12/2021"
