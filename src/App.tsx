@@ -61,7 +61,7 @@ export default function App() {
             {/* <!-- TODO gsap, chart.js --> */}
             <li>Node.js, NestJS, Strapi</li>
             <li>SQL, PostgreSQL, MongoDB</li>
-            {/* <!-- TODO REST, GraphQL? --> */}
+            {/* <!-- TODO REST, GraphQL, tRPC, WebSocket? --> */}
             <li>Jest, Vitest, RTL, Cypress, Playwright</li>
             <li>C#, .NET</li>
             <li>AWS, Terraform</li>
@@ -400,26 +400,6 @@ export default function App() {
                       </li>
                     </ul>
                   </>
-                }
-              />,
-            ]}
-          />
-
-          <ExperienceCompany
-            company="CHM Software"
-            where="Kharkiv, Ukraine"
-            jobs={[
-              <ExperienceJob
-                title="C++ DEVELOPER"
-                dateRange="05/2019 to 10/2019"
-                description={
-                  <ul>
-                    <li>
-                      Implemented data synchronization which stores in
-                      PostgreSQL DB across clients and server via TCP
-                    </li>
-                    <li>Fixed bugs in Qt front-end application</li>
-                  </ul>
                 }
               />,
             ]}
