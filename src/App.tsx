@@ -40,29 +40,26 @@ export default function App() {
       </header>
 
       <main className="container">
-        <section className="profile">
+        <section className="profile mt-5 mb-10 md:my-10 grid grid-cols-[1fr] md:grid-cols-[200px,_1fr] items-center gap-x-10 gap-y-4">
           <div className="photo">
             <img src={Photo} alt="Photo" />
           </div>
-          <div>
-            <h1 className="mb-4">OLEKSANDR DEMCHENKO</h1>
-            <ul>
-              <li>
-                Full Stack software engineer with more than 10 years of
-                experience in software development, 5 years of which in web
-                development.
-              </li>
-              <li>Has work experience as a key developer and team lead.</li>
-              <li>Key areas: React, Node.js, AWS, Terraform.</li>
-              <li>
-                Solid knowledge of object-oriented design and programming.
-              </li>
-              <li>
-                Experience in onboarding colleagues and supporting junior
-                developers.
-              </li>
-            </ul>
-          </div>
+
+          <h1>OLEKSANDR DEMCHENKO</h1>
+
+          <ul className="md:col-span-2 print:col-span-2">
+            <li>
+              Full Stack software engineer with more than 10 years of experience
+              in software development, 5 years of which in web development.
+            </li>
+            <li>Has work experience as a key developer and team lead.</li>
+            <li>Key areas: React, Node.js, AWS, Terraform.</li>
+            <li>Solid knowledge of object-oriented design and programming.</li>
+            <li>
+              Experience in onboarding colleagues and supporting junior
+              developers.
+            </li>
+          </ul>
         </section>
 
         <SectionBlock title="SKILLS">

@@ -52,22 +52,6 @@
 }
 
 @layer components {
-  .profile {
-    margin: 40px 0;
-
-    display: grid;
-    grid-template-columns: 200px 1fr;
-    align-items: center;
-
-    @apply gap-x-10;
-  }
-
-  @media (max-width: 800px) {
-    .profile {
-      grid-template-columns: 1fr;
-    }
-  }
-
   .photo {
     justify-self: center;
 
