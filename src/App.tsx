@@ -9,17 +9,32 @@ import ExperienceJob from "./components/ExperienceJob";
 export default function App() {
   return (
     <>
-      <header className="px-[30px] py-4 flex flex-col md:flex-row justify-center items-center border-b-2 border-b-black">
-        <p>
-          <img src={IconMail} width="20" alt="Mail icon" />
+      <header className="px-[30px] py-4 flex flex-col md:flex-row print:flex-row justify-center items-center gap-2 md:gap-8 print:gap-8 border-b-2 border-b-black bg-[var(--theme-color)]">
+        <p className="flex items-center">
+          <img
+            src={IconMail}
+            width="20"
+            className="block mr-1"
+            alt="Mail icon"
+          />
           alex.demchenko.84@gmail.com
         </p>
-        <p>
-          <img src={IconTelegram} width="20" alt="Telegram icon" />
+        <p className="flex items-center">
+          <img
+            src={IconTelegram}
+            width="20"
+            className="block mr-1"
+            alt="Telegram icon"
+          />
           @alex_demch
         </p>
-        <p>
-          <img src={IconLocation} width="20" alt="Location icon" />
+        <p className="flex items-center">
+          <img
+            src={IconLocation}
+            width="20"
+            className="block mr-1"
+            alt="Location icon"
+          />
           Kyiv, Ukraine
         </p>
       </header>
@@ -51,7 +66,7 @@ export default function App() {
         </section>
 
         <SectionBlock title="SKILLS">
-          <ul className="skills">
+          <ul className="mb-4 columns-2">
             <li>HTML, CSS, SASS</li>
             <li>TailwindCSS, UnoCSS, Bootstrap</li>
             <li>TypeScript, JavaScript</li>
