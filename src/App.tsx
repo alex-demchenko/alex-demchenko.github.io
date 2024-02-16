@@ -63,7 +63,7 @@ export default function App() {
         </section>
 
         <SectionBlock title="SKILLS">
-          <ul className="mb-4 columns-2">
+          <ul className="mb-4 columns-2 print:columns-3 gap-8">
             <li>HTML, CSS, SASS</li>
             <li>TailwindCSS, UnoCSS, Bootstrap</li>
             <li>TypeScript, JavaScript</li>
@@ -87,7 +87,7 @@ export default function App() {
         </SectionBlock>
 
         {/* <!-- TODO links to projects --> */}
-        <SectionBlock title="EXPERIENCE">
+        <SectionBlock title="EXPERIENCE" className="-mb-5">
           {/* <!-- TODO to Current or to Now? --> */}
           <ExperienceCompany
             company="Tino Digital Agency"
@@ -239,8 +239,8 @@ export default function App() {
                       </li>
 
                       <li>
-                        Developed frontend React components which requests data
-                        via ReactQuery
+                        Developed React components which requests data via
+                        ReactQuery
                       </li>
                       <li>
                         Developed backend API endpoints in ASP.NET Core 3 server
@@ -325,14 +325,13 @@ export default function App() {
                       <li>
                         Updated solution from .NET Framework 3.5 and 4.5 to 4.8
                       </li>
-                      <li>Updated server support from TLS 1.0 to 1.3</li>
                       <li>Updated ElasticSearch from 1.6 to 7.4</li>
                       <li>
                         Reimplemented tool for gathering webinar visitors from
                         third-party webinar platform and store data in MS SQL DB
                       </li>
                       <li>
-                        Implemented device detection via 51Degrees Cloud AP
+                        Implemented device detection via 51Degrees Cloud API
                       </li>
                       <li>
                         Configured and manually deployed of development
@@ -360,8 +359,7 @@ export default function App() {
                         the progress of tasks by stand-up meetings
                       </li>
                       <li>
-                        Implemented of integration with SMC (SAP Marketing
-                        Cloud)
+                        Implemented of integration with SAP Marketing Cloud
                       </li>
                       <li>Implemented and supported of CI</li>
                       <li>Provided code refactoring</li>
@@ -492,7 +490,8 @@ export default function App() {
         </SectionBlock>
 
         {/* <!-- EDUCATION AND TRAINING --> */}
-        <SectionBlock title="EDUCATION">
+        {/* NOTE: temporary hided */}
+        {/* <SectionBlock title="EDUCATION">
           <p className="mb-4">
             <strong>
               Simon Kuznets Kharkiv National University of Economics
@@ -507,9 +506,7 @@ export default function App() {
             <br />
             <strong>Junior Specialist</strong>, Software Engineering, 2012
           </p>
-        </SectionBlock>
-
-        {/* <!-- TODO Footer: Thanks for watching --> */}
+        </SectionBlock> */}
       </main>
     </>
   );
