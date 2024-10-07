@@ -77,26 +77,71 @@ export default function App() {
             <li>Jest, Vitest, RTL, Cypress, Playwright</li>
             <li>C#, .NET</li>
             <li>AWS, Terraform</li>
+            <li>Docker</li>
             <li>Jenkins, BuildMaster</li>
             <li>Git, SVN</li>
-            {/* TODO Docker? */}
           </ul>
 
-          {/* TODO need B2 */}
-          <p>English level: B1+</p>
+          <p>English level: B2</p>
         </SectionBlock>
 
         {/* TODO links to projects */}
         <SectionBlock title="EXPERIENCE" className="-mb-5">
-          {/* TODO to Current or to Now? */}
-
           <ExperienceCompany
-            company="Tino Digital Agency"
+            company="Yojji"
             where="Remote"
             jobs={[
               <ExperienceJob
                 title="SENIOR FULL STACK REACT/NODE.JS DEVELOPER"
-                dateRange="06/2023 to now"
+                dateRange="02/2024 to now"
+                description={
+                  <>
+                    <p>
+                      Project:{" "}
+                      <a href="https://joinstudyhall.com/" rel="nofollow">
+                        Study Hall
+                      </a>
+                    </p>
+
+                    <ul>
+                      {/* TODO fronted */}
+                      <li>
+                        Implemented layout of assignments builder with several
+                        steps and dynamic displaying of UI according to selected
+                        values
+                      </li>
+                      <li>
+                        Changed the MongoDB structure to meet new feature
+                        requirements
+                      </li>
+                      <li>
+                        Implemented integration with internal AI service, which
+                        assess student answers
+                      </li>
+                      <li>
+                        Implemented teacher dashboard with analysis about
+                        students (average score by weeks, by subject, by class
+                        and so on)
+                      </li>
+                      <li>
+                        Implemented random selection a passage for a student by
+                        specific parameters to train writing skills
+                      </li>
+                      <li>
+                        Implemented calculation of daily streaks by different
+                        events
+                      </li>
+                      <li>
+                        Implemented caching of some endpoint results via Redis
+                      </li>
+                      <li>Provided code review</li>
+                    </ul>
+                  </>
+                }
+              />,
+              <ExperienceJob
+                title="SENIOR FULL STACK REACT/NODE.JS DEVELOPER"
+                dateRange="06/2023 to 02/2024"
                 description={
                   <>
                     <p>
@@ -138,10 +183,10 @@ export default function App() {
                         Implemented footer text editor via ProseMirror, Redux
                         Toolkit, RTK Query
                       </li>
-                      <li>
+                      {/* <li>
                         Implemented full page slidings via Swiper, React,
                         Next.js
-                      </li>
+                      </li> */}
                       <li>
                         Implemented animations on the pages via FramerMotion
                       </li>
@@ -288,12 +333,12 @@ export default function App() {
                         Terraform like Lambda, SQS, SNS, DynamoDB, IAM roles,
                         Route 53, CloudWatch Logs
                       </li>
-                      <li>
+                      {/* <li>
                         Developed Jenkins jobs for build, deploy, destroy and
                         run tools Added new data filters via query parameters
                         with validation to main ASP.NET Core API application
                         which request data from DynamoDB
-                      </li>
+                      </li> */}
                       <li>
                         Developed Unit and E2E tests via NUnit,
                         FluentAssertions, AutoFixture, Moq, SpecFlow
@@ -338,12 +383,12 @@ export default function App() {
                         environment
                       </li>
                       <li>Eliminated the discrepancy between environments</li>
-                      <li>
+                      {/* <li>
                         Cleared the database of unused tables and stored
                         procedures
-                      </li>
-                      <li>Fixed issues detected by SonarQube</li>
-                      <li>Improved logging</li>
+                      </li> */}
+                      {/* <li>Fixed issues detected by SonarQube</li> */}
+                      {/* <li>Improved logging</li> */}
                       <li>Provided code refactoring</li>
                       <li>Participated in production support duty</li>
                     </ul>
@@ -489,9 +534,8 @@ export default function App() {
           />
         </SectionBlock>
 
-        {/* <!-- EDUCATION AND TRAINING --> */}
-        {/* NOTE: temporary hided */}
-        {/* <SectionBlock title="EDUCATION">
+        {/* EDUCATION AND TRAINING */}
+        <SectionBlock title="EDUCATION">
           <p>
             <strong>
               Simon Kuznets Kharkiv National University of Economics
@@ -509,7 +553,7 @@ export default function App() {
           <p className="mb-4">
             <strong>Junior Specialist</strong>, Software Engineering, 2012
           </p>
-        </SectionBlock> */}
+        </SectionBlock>
       </main>
     </>
   );
