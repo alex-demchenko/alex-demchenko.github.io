@@ -8,7 +8,7 @@ interface Props {
 
 export default function ExperienceJob(props: Props) {
   return (
-    <div className="mb-5 pl-5 relative exp__job">
+    <div className="mb-5 pl-5 print:pl-0 relative exp__job">
       <p>
         <strong className="uppercase">{props.title}</strong>, {props.dateRange}
       </p>

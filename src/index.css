@@ -90,16 +90,19 @@
   }
 
   /* Circle */
-  .exp__job::before {
-    content: "";
-    display: block;
-    border: 1px;
-    border-radius: 50%;
-    position: absolute;
-    left: 0px;
-    top: 0.45rem;
-    width: 10px;
-    height: 10px;
-    background: var(--theme-color);
+  @media not print {
+    .exp__job::before {
+      content: "";
+      display: block;
+      border: 1px;
+      border-radius: 50%;
+      position: absolute;
+      left: 0px;
+      top: 0.45rem;
+      width: 10px;
+      height: 10px;
+      background: var(--theme-color);
+    }
   }
 }
+
