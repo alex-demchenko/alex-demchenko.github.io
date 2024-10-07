@@ -492,18 +492,21 @@ export default function App() {
         {/* <!-- EDUCATION AND TRAINING --> */}
         {/* NOTE: temporary hided */}
         {/* <SectionBlock title="EDUCATION">
-          <p className="mb-4">
+          <p>
             <strong>
               Simon Kuznets Kharkiv National University of Economics
             </strong>
             , Kharkiv, Ukraine
-            <br />
+          </p>
+          <p className="mb-4">
             <strong>Bachelor's</strong>, Information Systems And Technologies,
             2014
           </p>
+
           <p>
             <strong>Kharkiv Radio Technical School</strong>, Kharkiv, Ukraine
-            <br />
+          </p>
+          <p className="mb-4">
             <strong>Junior Specialist</strong>, Software Engineering, 2012
           </p>
         </SectionBlock> */}
@@ -511,3 +514,4 @@ export default function App() {
     </>
   );
 }
+
