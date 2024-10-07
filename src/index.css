@@ -77,19 +77,23 @@
   }
 
   /* Line */
-  .exp::before {
-    content: "";
-    display: block;
-    border-radius: 2px;
-    position: absolute;
-    left: 4px;
-    top: 0;
-    bottom: 0;
-    width: 2px;
-    background: var(--theme-color);
+  /* Dont show it for print */
+  @media not print {
+    .exp::before {
+      content: "";
+      display: block;
+      border-radius: 2px;
+      position: absolute;
+      left: 4px;
+      top: 0;
+      bottom: 0;
+      width: 2px;
+      background: var(--theme-color);
+    }
   }
 
   /* Circle */
+  /* Dont show it for print */
   @media not print {
     .exp__job::before {
       content: "";
