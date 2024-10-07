@@ -58,25 +58,25 @@ export default function App() {
             <li>React, Next.js</li>
             <li>shadcn-ui, PrimeReact</li>
             <li>Vue.js, Nuxt</li>
-            {/* <!-- TODO gsap, chart.js --> */}
+            {/* TODO gsap, chart.js */}
             <li>Node.js, NestJS, Strapi</li>
             <li>SQL, PostgreSQL, MongoDB</li>
-            {/* <!-- TODO REST, GraphQL? --> */}
+            {/* TODO REST, GraphQL? */}
             <li>Jest, Vitest, RTL, Cypress, Playwright</li>
             <li>C#, .NET</li>
             <li>AWS, Terraform</li>
             <li>Jenkins, BuildMaster</li>
             <li>Git, SVN</li>
-            {/* <!-- TODO Docker? --> */}
+            {/* TODO Docker? */}
           </ul>
 
-          {/* <!-- TODO need B2 --> */}
+          {/* TODO need B2 */}
           <p>English level: B1+</p>
         </SectionBlock>
 
-        {/* <!-- TODO links to projects --> */}
+        {/* TODO links to projects */}
         <SectionBlock title="EXPERIENCE">
-          {/* <!-- TODO to Current or to Now? --> */}
+          {/* TODO to Current or to Now? */}
           <ExperienceCompany
             company="Tino Digital Agency"
             where="Remote"
@@ -458,7 +458,7 @@ export default function App() {
                       provided data.
                     </p>
                     <ul>
-                      {/* <!-- TODO more details --> */}
+                      {/* TODO more details */}
                       <li>
                         Implemented display and generation of article based on
                         provided data via ASP.NET Core, React, PrimeReact
@@ -589,7 +589,7 @@ export default function App() {
           />
         </SectionBlock>
 
-        {/* <!-- EDUCATION AND TRAINING --> */}
+        {/* EDUCATION AND TRAINING */}
         <SectionBlock title="EDUCATION">
           <p className="mb-4">
             <strong>
@@ -607,7 +607,7 @@ export default function App() {
           </p>
         </SectionBlock>
 
-        {/* <!-- TODO Footer: Thanks for watching --> */}
+        {/* TODO Footer: Thanks for watching */}
       </main>
     </>
   );

@@ -70,25 +70,26 @@ export default function App() {
             <li>React, Next.js</li>
             <li>shadcn-ui, PrimeReact</li>
             <li>Vue.js, Nuxt</li>
-            {/* <!-- TODO gsap, chart.js --> */}
+            {/* TODO gsap, chart.js */}
             <li>Node.js, NestJS, Strapi</li>
             <li>SQL, PostgreSQL, MongoDB</li>
-            {/* <!-- TODO REST, GraphQL, tRPC, WebSocket? --> */}
+            {/* TODO REST, GraphQL, tRPC, WebSocket? */}
             <li>Jest, Vitest, RTL, Cypress, Playwright</li>
             <li>C#, .NET</li>
             <li>AWS, Terraform</li>
             <li>Jenkins, BuildMaster</li>
             <li>Git, SVN</li>
-            {/* <!-- TODO Docker? --> */}
+            {/* TODO Docker? */}
           </ul>
 
-          {/* <!-- TODO need B2 --> */}
+          {/* TODO need B2 */}
           <p>English level: B1+</p>
         </SectionBlock>
 
-        {/* <!-- TODO links to projects --> */}
+        {/* TODO links to projects */}
         <SectionBlock title="EXPERIENCE" className="-mb-5">
-          {/* <!-- TODO to Current or to Now? --> */}
+          {/* TODO to Current or to Now? */}
+
           <ExperienceCompany
             company="Tino Digital Agency"
             where="Remote"
@@ -107,7 +108,6 @@ export default function App() {
 
                     <p>Frontend:</p>
                     <ul>
-                      <li>Ported backend from Strapi to NestJS</li>
                       <li>
                         Implemented responsive CRUD operations editor for
                         'object' entities via React, Next.js, shadcn/ui,
@@ -272,7 +272,7 @@ export default function App() {
                         with knowledge sharing
                       </li>
                       <li>
-                        Configured an Auror PostgreSQL a database via terraform,
+                        Configured an Auror PostgreSQL database via terraform,
                         with global replication for several regions
                       </li>
                       <li>
@@ -382,7 +382,7 @@ export default function App() {
                 description={
                   <>
                     <ul>
-                      {/* <!-- TODO more details --> */}
+                      {/* TODO more details */}
                       <li>
                         Implemented display and generation of article based on
                         provided data via ASP.NET Core, React, PrimeReact
