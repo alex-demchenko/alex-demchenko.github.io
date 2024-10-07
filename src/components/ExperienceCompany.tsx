@@ -9,7 +9,7 @@ interface Props {
 export default function ExperienceCompany(props: Props) {
   return (
     <div className="mb-5">
-      <div className="print:border-b-2 print:border-b-[var(--theme-color)]">
+      <div>
         <strong>{props.company}</strong>, {props.where}
       </div>
 
