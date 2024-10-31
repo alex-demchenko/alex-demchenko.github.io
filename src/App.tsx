@@ -1,10 +1,10 @@
+import IconLocation from "./assets/icon-location.png";
 import IconMail from "./assets/icon-mail.png";
 import IconTelegram from "./assets/icon-telegram.png";
-import IconLocation from "./assets/icon-location.png";
 import Photo from "./assets/photo_4.jpg";
-import SectionBlock from "./components/SectionBlock";
 import ExperienceCompany from "./components/ExperienceCompany";
 import ExperienceJob from "./components/ExperienceJob";
+import SectionBlock from "./components/SectionBlock";
 
 export default function App() {
   return (
@@ -68,6 +68,7 @@ export default function App() {
             <li>TailwindCSS, UnoCSS, Bootstrap</li>
             <li>TypeScript, JavaScript</li>
             <li>React, Next.js</li>
+            <li>Redux, Zustand, MobX</li>
             <li>shadcn-ui, PrimeReact</li>
             <li>Vue.js, Nuxt</li>
             {/* TODO gsap, chart.js */}
@@ -234,7 +235,7 @@ export default function App() {
             where="Remote"
             jobs={[
               <ExperienceJob
-                title="FULL STACK VUE.JS/NODE.JS DEVELOPER"
+                title="SENIOR FULL STACK VUE.JS/NODE.JS DEVELOPER"
                 dateRange="08/2022 to 06/2023"
                 description={
                   <>
