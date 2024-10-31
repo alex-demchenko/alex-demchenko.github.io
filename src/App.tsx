@@ -40,7 +40,7 @@ export default function App() {
       </header>
 
       <main className="container">
-        <section className="profile mt-5 mb-10 md:my-10 grid grid-cols-[1fr] md:grid-cols-[200px,_1fr] items-center gap-x-10 gap-y-4">
+        <section className="mt-5 mb-10 md:my-10 grid grid-cols-[1fr] md:grid-cols-[200px,_1fr] print:grid-cols-none items-center gap-x-10 gap-y-4">
           <div className="photo">
             <img src={Photo} alt="Photo" />
           </div>
@@ -50,7 +50,7 @@ export default function App() {
           <ul className="md:col-span-2 print:col-span-2">
             <li>
               Full Stack software engineer with more than 10 years of experience
-              in software development, 5 years of which in web development.
+              in software development, 6 years of which in web development.
             </li>
             <li>Has work experience as a key developer and team lead.</li>
             <li>Key areas: React, Node.js, AWS, Terraform.</li>
